@@ -1,0 +1,58 @@
+    1  history
+    2  sudo apt list | grep -i python3.10
+    3  sudo apt remove python3.10
+    4  tar -xvzf Python-3.10.16.tgz
+    5  ls
+    6  python3.10 --version
+    7  make clean
+    8  sudo apt update
+    9  sudo apt install python3.10
+   10  cd ~/Python-3.10.16
+   11  ls
+   12  sudo apt install python3.10
+   13  ./configure
+   14  --enable-optimizations
+   15  ./configure --enable-optimizations
+   16  make
+   17  sudo apt install
+   18  python3.10 --version
+   19  python3.10 -m ensurepip --upgrade
+   20  cd
+   21  sudo apt update
+   22  sudo apt install -y zlib1g-dev
+   23  cd ~/Python-3.10.16
+   24  ./configure --with-zlib=/user/include
+   25  ./configure --enable-optimizations
+   26  make
+   27  python3.10 -m ensurepip --upgrade
+   28  cd
+   29  sudo apt update
+   30  cd ~/Python-3.10.16
+   31  python3.10 -m venv myenv
+   32  python3.10 -m ensurepip --upgrade --default-pip
+   33  cd ..
+   34  sudo apt-get install zlib1g-devsudo apt-get install zlib1g-dev
+   35  cd ~/Python-3.10.16
+   36  sudo apt install zlib1g-dev
+   37  cd ..
+   38  sudo apt install zlib1g-dev
+   39  sudo yum install zlib-devel
+   40  sudo apt install zlib1g-dev
+   41  wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
+   42  tar -xvf Python-3.10.16.tgz
+   43  cd ~/Python-3.10.16
+   44  ./configure --enable-optimizations
+   45  make
+   46  make -j $(nproc)
+   47  sudo make altinstall
+   48  python3.10 -m ensurepip --upgrade
+   49  python3.10 -m venv myenv
+   50  source myenv/bin/activate
+   51  pip install label-studio
+   52  label-studio start
+   53  history >user_history.txt
+   54  ls
+   55  cd..
+   56  deactivate
+   57  cd ..
+   58  history > user_history.txt
